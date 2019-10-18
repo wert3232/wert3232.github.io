@@ -23,12 +23,38 @@ const color4 = {
   l: '50%',
   a: '80%'
 };
+const color5 = {
+  h: 30,
+  s: '100%',
+  l: '50%',
+  a: '80%'
+};
+const color6 = {
+  h: 50,
+  s: '100%',
+  l: '50%',
+  a: '80%'
+};
+const colorBlack = {
+  h: 20,
+  s: '0%',
+  l: '50%',
+  a: '80%'
+};
 const points1 = [];
 const points2 = [];
-const Actions = [{
+const Actions = [
+	{
+		lifeTime: 100,
+		texts: [{
+		  text: '\\(^_^)/',
+		  hsla: color6
+		}]
+	},
+  {
     lifeTime: 100,
     texts: [{
-      text: '祝❤',
+      text: '祝',
       hsla: color1
     }]
   },
@@ -112,7 +138,7 @@ const Actions = [{
     }]
   },
   {
-    lifeTime: 180,
+    lifeTime: 120,
     texts: [
     
       {
@@ -132,6 +158,31 @@ const Actions = [{
         hsla: color4
       },
 	 
+    ]
+  },
+  {
+    lifeTime: 120,
+    texts: [
+      {
+        text: '乾杯',
+        hsla: color2
+      },
+      {
+        text: '[]',
+        hsla: color5
+      },
+	  {
+        text: '~(￣',
+        hsla: colorBlack
+      },
+	  {
+        text: '▽',
+        hsla: color3
+      },
+	  {
+        text: '￣)~*',
+        hsla: colorBlack
+      },
     ]
   }
  
