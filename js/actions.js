@@ -28,7 +28,7 @@ const points2 = [];
 const Actions = [{
     lifeTime: 100,
     texts: [{
-      text: '祝',
+      text: '祝❤',
       hsla: color1
     }]
   },
